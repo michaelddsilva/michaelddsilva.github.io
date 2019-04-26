@@ -44,6 +44,12 @@ body {
     padding-right: 20px;
 }
 
+.FooterClass{
+    text-align: center;
+    position: absolute;
+        bottom: 0;
+}
+
 .section-link a {
     border-right:white 1px solid;
     color: white;
