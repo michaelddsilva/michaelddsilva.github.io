@@ -59,6 +59,14 @@ body {
     display: inline-block;
     position: relative;
         left: 15px;
+    text-decoration: none;
 } 
 
+.section-link a:hover {
+    text-decoration: underline;
+}
+
+.section-link a:active{
+    text-decoration: aqua;
+}
 
