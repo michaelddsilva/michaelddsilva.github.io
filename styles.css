@@ -67,6 +67,6 @@ body {
 }
 
 .section-link a:active{
-    text-decoration: aqua;
+    font-weight: 100;
 }
 
