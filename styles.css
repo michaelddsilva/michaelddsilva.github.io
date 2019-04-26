@@ -41,6 +41,11 @@ a {
     font-size-adjust: inherit;
 }
 
+img{
+    margin-left: 14px;
+
+}
+
 #navigation {
     background: black;
     border-bottom: black 1px solid;
