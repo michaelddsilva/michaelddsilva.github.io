@@ -34,6 +34,13 @@ body {
 
   }
 
+a {
+    text-decoration: none;
+    color: black;
+    margin-left: 0px;
+    font-size-adjust: inherit;
+}
+
 #navigation {
     background: black;
     border-bottom: black 1px solid;
@@ -66,7 +73,5 @@ body {
     text-decoration: underline;
 }
 
-.section-link a:active{
-    font-weight: 100;
-}
+
 
