@@ -1,25 +1,36 @@
+html{
+    font-family: 'Courier New', Courier, monospace;
+}
+
 body {
-    background-color: lightblue;
+    background-color: rgb(209, 233, 241);
   }
   
   h1 {
     color: navy;
     margin-left: 14px;
+    font-size-adjust: inherit
   }
 
   h2 {
     color: navy;
     margin-left: 14px;
+    font-size-adjust: inherit
+
   }
 
   h3 {
     color: navy;
     margin-left: 14px;
+    font-size-adjust: inherit
+
   }
 
   p {
       color: black;
       margin-left: 16px;
+      font-size-adjust: inherit
+
   }
 
 
@@ -31,7 +42,6 @@ body {
     position: fixed;
         top: 0;
     width: 100%;
-    z-index: 4;
 }
 
 .section-link a {
@@ -40,5 +50,8 @@ body {
     margin: 15px; 
     padding-right: 15px;
     display: inline-block;
+    position: relative;
+        left: 15px;
 } 
+
 
