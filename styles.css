@@ -1,0 +1,44 @@
+body {
+    background-color: lightblue;
+  }
+  
+  h1 {
+    color: navy;
+    margin-left: 14px;
+  }
+
+  h2 {
+    color: navy;
+    margin-left: 14px;
+  }
+
+  h3 {
+    color: navy;
+    margin-left: 14px;
+  }
+
+  p {
+      color: black;
+      margin-left: 16px;
+  }
+
+
+
+#navigation {
+    background: black;
+    border-bottom: black 1px solid;
+    height: 55px;
+    position: fixed;
+        top: 0;
+    width: 100%;
+    z-index: 4;
+}
+
+.section-link a {
+    border-right:white 1px solid;
+    color: grey;
+    margin: 15px; 
+    padding-right: 15px;
+    display: inline-block;
+} 
+
