@@ -1,0 +1,115 @@
+html{
+    font-family: monospace ;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: rgb(209, 233, 241);
+  }
+  
+  h1 {
+    color: navy;
+    margin-left: 14px;
+    font-size-adjust: inherit;
+  }
+
+  h2 {
+    color: navy;
+    margin-left: 14px;
+    font-size-adjust: inherit;
+
+  }
+
+  h3 {
+    color: navy;
+    margin-left: 14px;
+    font-size-adjust: inherit;
+
+  }
+
+  h4 {
+    color: navy;
+    margin-left: 14px;
+    font-size-adjust: inherit;
+
+  }
+
+  h5 {
+    color: navy;
+    margin-left: 14px;
+    font-size-adjust: inherit;
+
+  }
+
+  h6 {
+    color: navy;
+    margin-left: 14px;
+    font-size-adjust: inherit;
+
+  }
+
+
+  p {
+      color: black;
+      margin-left: 16px;
+      font-size-adjust: inherit;
+
+  }
+
+a {
+    text-decoration: none;
+    color: black;
+    margin-left: 0px;
+    font-size-adjust: inherit;
+}
+
+img{
+    margin-left: 14px;
+
+}
+
+#navigation {
+    background: black;
+    border-bottom: black 1px solid;
+    height: 55px;
+    position: relative;
+    margin: -8px;
+    height: 60px;
+    width: 100%;
+    padding-right: 20px;
+}
+
+#navigation2 {
+    background: rgb(68, 61, 2);
+    border-bottom: black 1px solid;
+    height: 55px;
+    position: relative;
+    margin: -8px;
+    height: 60px;
+    width: 100%;
+    padding-right: 20px;
+}
+
+.FooterClass{
+    text-align: center;
+    position: relative;
+        bottom: 0;
+}
+
+.section-link a {
+    border-right:white 1px solid;
+    color: white;
+    margin: 15px; 
+    padding-right: 15px;
+    display: inline-block;
+    position: relative;
+        left: 15px;
+    text-decoration: none;
+} 
+
+.section-link a:hover {
+    text-decoration: underline;
+}
+
+
+
