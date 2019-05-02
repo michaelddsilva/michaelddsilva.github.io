@@ -27,6 +27,28 @@ body {
 
   }
 
+  h4 {
+    color: navy;
+    margin-left: 14px;
+    font-size-adjust: inherit;
+
+  }
+
+  h5 {
+    color: navy;
+    margin-left: 14px;
+    font-size-adjust: inherit;
+
+  }
+
+  h6 {
+    color: navy;
+    margin-left: 14px;
+    font-size-adjust: inherit;
+
+  }
+
+
   p {
       color: black;
       margin-left: 16px;

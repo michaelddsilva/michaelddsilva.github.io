@@ -1,0 +1,86 @@
+<!-- This is a page I made to observe how my styles.css will effect the apperance of my pages-->
+<!-- This page is modeled after this video: https://www.youtube.com/watch?v=UB1O30fR-EE -->
+
+
+<head>
+    <meta charset=" utf-8">
+
+    <link rel="stylesheet" href="styles.css">
+    <title>Test Page</title>
+</head>
+
+<body>
+    <h1>Heading One</h1>
+    <h2>Heading Two</h2>
+    <h3>Heading Three</h3>
+    <h4>Heading Four</h4>
+    <h5>Heading Five</h5>
+    <h6>Heading Six</h6>
+
+    <p>paragraph</p>
+    
+    <ul>
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+    </ul>
+    
+    <ol>
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+    </ol>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Michael D'Silva</td>
+                <td>mdsilva6@uwo.ca</td>
+            </tr>
+            <tr>
+                <td>Mike D'Silva</td>
+                <td>michael.dsilva.343@gmail.com</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <br>
+    <hr>
+    <br>
+    
+    <form action="process.php" method="POST">
+        <div>
+            <label>First Name</label>
+            <input type="text" name="firstName" placeholder = "Enter first name">
+        </div>
+        <div>
+            <label>Last Name</label>
+            <input type="text" name="lastName" placeholder="Enter last name">
+        </div>
+        <div>
+            <label>Email</label>
+            <input type="email" name="email" placeholder="Enter email">
+        </div>
+        <br>
+        <div>
+            <label>Message</label>
+            <textarea name="message"></textarea>
+        </div>
+        <div>
+            <label>Yes or No</label>
+            <select name="yesOrNo">
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+            </select>
+        </div>
+        <br>
+        <input type = "submit" name="submit" value="Submit">
+    </form>
+    
+</body>
