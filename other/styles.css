@@ -79,9 +79,6 @@ img{
     z-index: 4;
 }
 
-.navigation a{
-    font-size: 8em;
-}
 
 #banner{
     position: relative;
@@ -102,6 +99,7 @@ img{
     position: relative;
         left: 15px;
     text-decoration: none;
+    font-size: 1em;
 } 
 
 .section-link a:hover {
