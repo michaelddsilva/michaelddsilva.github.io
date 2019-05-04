@@ -79,6 +79,10 @@ img{
     z-index: 4;
 }
 
+.navigation a{
+    font-size: 8em;
+}
+
 #banner{
     position: relative;
 }
