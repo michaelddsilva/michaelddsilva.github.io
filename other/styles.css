@@ -111,7 +111,7 @@ img{
 
 .div1{
     margin: 1em;
-    background: rgb(209, 233, 241);
+    border: 3px blue solid;
 }
 .div2{
     margin: 1em;
