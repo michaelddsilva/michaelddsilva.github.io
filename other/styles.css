@@ -4,7 +4,7 @@ html{
 }
 
 body {
-    background-color: rgb(209, 233, 241);
+    background: rgb(209, 233, 241);
   }
   
   h1 {
@@ -70,22 +70,17 @@ img{
     background: black;
     border-bottom: black 1px solid;
     height: 55px;
-    position: relative;
+    position: fixed;
+        top:0;
     margin: -8px;
     height: 60px;
     width: 100%;
     padding-right: 20px;
+    z-index: 4;
 }
 
-#navigation2 {
-    background: rgb(68, 61, 2);
-    border-bottom: black 1px solid;
-    height: 55px;
+#banner{
     position: relative;
-    margin: -8px;
-    height: 60px;
-    width: 100%;
-    padding-right: 20px;
 }
 
 .FooterClass{
@@ -107,6 +102,27 @@ img{
 
 .section-link a:hover {
     text-decoration: underline;
+}
+
+.container{
+    width=90%;
+}
+
+.div1{
+    margin: 1em;
+    background: rgb(209, 233, 241);
+}
+.div2{
+    margin: 1em;
+    background: rgb(209, 233, 241);
+}
+.div3{
+    margin: 1em;
+    background: rgb(209, 233, 241);
+}
+.div4{
+    margin: 1em;
+    background: rgb(209, 233, 241);
 }
 
 
