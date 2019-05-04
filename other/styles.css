@@ -1,6 +1,3 @@
-*{
-    padding-bottom: 1em;
-}
 
 html{
     font-family: verdana;
@@ -70,6 +67,10 @@ img{
 
 }
 
+table{
+    padding-left: 1em;
+}
+
 #navigation {
     background: black;
     border-bottom: black 1px solid;
@@ -110,22 +111,33 @@ img{
 }
 
 .container{
-    width=90%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    width=80%;
 }
 
 .div1{
+    padding-top: 1em;
+    padding-bottom: 1em;
     margin: 1em;
     background: white; //rgb(209, 233, 241)
+    border: 3px grey solid;
 }
 .div2{
+    padding-top: 1em;
+    padding-bottom: 1em;
     margin: 1em;
     background: white;
 }
 .div3{
+    padding-top: 1em;
+    padding-bottom: 1em;
     margin: 1em;
     background: white;
 }
 .div4{
+    padding-top: 1em;
+    padding-bottom: 1em;
     margin: 1em;
     background: white;
 }
