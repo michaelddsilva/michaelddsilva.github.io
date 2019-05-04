@@ -1,11 +1,11 @@
 
 html{
-    font-family: verdana;
+    font-family: Optima, Segoe, Segoe UI, Candara, Calibri, Arial, sans-serif;
     overflow-x: hidden;
 }
 
 body {
-    background: rgb(209, 233, 241);
+    background: #fbf7f5;
   }
   
   h1 {
@@ -120,26 +120,29 @@ table{
     padding-top: 1em;
     padding-bottom: 1em;
     margin: 1em;
-    background: white; //rgb(209, 233, 241)
-    border: 3px grey solid;
+    background: white; 
+    border-style: ridge;
 }
 .div2{
     padding-top: 1em;
     padding-bottom: 1em;
     margin: 1em;
     background: white;
+    border-style: ridge;
 }
 .div3{
     padding-top: 1em;
     padding-bottom: 1em;
     margin: 1em;
     background: white;
+    border-style: ridge;
 }
 .div4{
     padding-top: 1em;
     padding-bottom: 1em;
     margin: 1em;
     background: white;
+    border-style: ridge;
 }
 
 
