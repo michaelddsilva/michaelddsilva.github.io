@@ -78,7 +78,7 @@ table{
     position: fixed;
         top:0;
     margin: 0em;
-    width: 100%;
+    min-width: 800px;
     margin-left: -1em;
     padding-right: 2em;
     z-index: 4;
