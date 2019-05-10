@@ -79,6 +79,7 @@ table{
         margin: 0em;
         margin-left: -1em;
         padding-right: 0 em;
+        width: -webkit-fill-available;
     <script>
     if(device-width<800px){
         height: 8em;
@@ -87,7 +88,7 @@ table{
     }
     else{
         height: 3 em;
-        min-width: 1500px;
+        width: 1500px;
     }
     </script>
 
