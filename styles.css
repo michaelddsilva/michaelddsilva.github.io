@@ -78,16 +78,16 @@ table{
         top:0;
         margin: 0em;
         margin-left: -1em;
-        padding-right: 2em;
+        padding-right: 0 em;
     <script>
     if(device-width<800px){
-        height: 10em;
+        height: 8em;
         min-width: device-width;
         
     }
     else{
         height: 3 em;
-        min-width: 800px;
+        min-width: 1500px;
     }
     </script>
 
