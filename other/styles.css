@@ -127,28 +127,19 @@ table{
     width=80%;
 }
 
-
-#videobackground {
-  position:relative;
-  min-width: 100%; 
-  min-height: 100%;
-}
-
 .div0{
-  position: absolute;
-  color: #f1f1f1;
-  width: 100%;
-    top: 300px;
-    left: 50px;
-
+    padding-top: 8em;
+    padding-bottom: 4em;
+    padding-left: 1.5em;
+    background: black;
+    width: 100%;
+    overflow-x: hidden;
 }
 
-.div0 h1{
+h7{
     color: white;
-    font-size: 2cm;
- 
+    font-size: 3em;
 }
-
 
 .div1{
     padding-top: 1em;
