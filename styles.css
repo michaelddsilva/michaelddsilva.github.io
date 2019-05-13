@@ -127,11 +127,23 @@ table{
     width=80%;
 }
 
+
+#videobackground {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+
 .div0{
-    padding-top: 4em;
-    padding-bottom: 4em;
-    padding-left: 1.5em;
-    background: black;
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+
 }
 
 h7{

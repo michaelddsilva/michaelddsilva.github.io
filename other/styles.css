@@ -72,16 +72,27 @@ table{
 }
 
 #navigation {
-    background: black;
-    border-bottom: black 1px solid;
-    height: 3em;
+    background: white;
+    border-bottom: grey 1px solid;
     position: fixed;
         top:0;
-    margin: 0em;
-    width: 100%;
-    margin-left: -1em;
-    padding-right: 2em;
-    z-index: 4;
+        margin: 0em;
+        margin-left: -1em;
+        padding-right: 0 em;
+        width: -webkit-fill-available;
+    <script>
+    if(device-width<800px){
+        height: 8em;
+        min-width: device-width;
+        
+    }
+    else{
+        height: 3 em;
+        width: 1500px;
+    }
+    </script>
+
+
 }
 
 
@@ -96,7 +107,7 @@ table{
 }
 
 .section-link a {
-    color: white;
+    color: black;
     margin: 15px; 
     padding-right: 15px;
     display: inline-block;
@@ -116,6 +127,30 @@ table{
     width=80%;
 }
 
+
+#videobackground {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+
+.div0{
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+
+}
+
+h7{
+    color: white;
+    font-size: 3em;
+}
+
 .div1{
     padding-top: 1em;
     padding-bottom: 1em;
@@ -123,27 +158,8 @@ table{
     background: white; 
     border-style: ridge;
 }
-.div2{
-    padding-top: 1em;
-    padding-bottom: 1em;
-    margin: 1em;
-    background: white;
-    border-style: ridge;
-}
-.div3{
-    padding-top: 1em;
-    padding-bottom: 1em;
-    margin: 1em;
-    background: white;
-    border-style: ridge;
-}
-.div4{
-    padding-top: 1em;
-    padding-bottom: 1em;
-    margin: 1em;
-    background: white;
-    border-style: ridge;
-}
+
+
 
 
 
