@@ -84,6 +84,10 @@ video{
         bottom: 0;
 }
 
+.FooterClass p{
+    color: white;
+}
+
 .section-link a {
     color: black;
     margin: 15px; 
