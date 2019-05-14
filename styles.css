@@ -5,50 +5,20 @@ html{
 }
 
 body {
-    background: #fbf7f5;
+    background: #36454f ;
   }
   
-  h1 {
-    color: navy;
+h1 {
+    color: floralwhite;
+    margin-left: 14px;
+    font-size-adjust: inherit;
+  }  
+
+h2,h3,h4,h5,h6 {
+    color: #2d5c4d;
     margin-left: 14px;
     font-size-adjust: inherit;
   }
-
-  h2 {
-    color: navy;
-    margin-left: 14px;
-    font-size-adjust: inherit;
-
-  }
-
-  h3 {
-    color: navy;
-    margin-left: 14px;
-    font-size-adjust: inherit;
-
-  }
-
-  h4 {
-    color: navy;
-    margin-left: 14px;
-    font-size-adjust: inherit;
-
-  }
-
-  h5 {
-    color: navy;
-    margin-left: 14px;
-    font-size-adjust: inherit;
-
-  }
-
-  h6 {
-    color: navy;
-    margin-left: 14px;
-    font-size-adjust: inherit;
-
-  }
-
 
   p {
       color: black;
