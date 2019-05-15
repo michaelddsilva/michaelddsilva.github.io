@@ -141,13 +141,15 @@ video{
 
 .div0{
   position: absolute;
-  color: #f1f1f1;
-  width: 100%;
-    top: 300px;
-    left: 50px;
+  top: 3em;
+  left: 16px;
 
 }
 
+.div0 p{
+    color: aliceblue;
+    font-size: -webkit-xxx-large
+}
 
 
 .div1{
