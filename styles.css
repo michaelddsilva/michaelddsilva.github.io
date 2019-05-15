@@ -122,6 +122,10 @@ h7{
 }
 
 q {
+    color: #eff0ef;
+}
+
+.div1 q {
     color: white
 }
 
