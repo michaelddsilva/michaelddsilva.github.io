@@ -103,6 +103,8 @@ video{
     padding-top: 1em;
     padding-bottom: 1em;
     width=80%;
+    max-width: 1500px;
+
 }
 
 .div0{
