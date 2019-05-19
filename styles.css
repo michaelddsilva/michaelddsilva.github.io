@@ -75,9 +75,7 @@ video{
     font-size: 1em;
 } 
 
-.section-link a:hover {
-    text-decoration: underline;
-}
+
 
 .container{
     padding-top: 1em;
