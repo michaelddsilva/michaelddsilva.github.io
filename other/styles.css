@@ -42,6 +42,7 @@ table{
 }
 
 
+
 videobackground {
   position:relative;
  
@@ -142,6 +143,8 @@ q {
 .active {
   background-color: #4CAF50;
   color: white;
+    position: fixed;
+        top:0;
 }
 
 .topnav .icon {
@@ -157,7 +160,7 @@ q {
 }
 
 @media screen and (max-width: 600px) {
-  .topnav.responsive {position: relative;}
+  .topnav.responsive {position: fixed;}
   .topnav.responsive .icon {
     position: absolute;
     right: 0;
