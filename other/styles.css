@@ -41,27 +41,6 @@ table{
     padding-left: 1em;
 }
 
-#navigation {
-    background: white;
-    border-bottom: grey 1px solid;
-    position: fixed;
-        top:0;
-        margin: 0em;
-        margin-left: -1em;
-        padding-right: 0 em;
-        width: -webkit-fill-available;
-    <script>
-    if(device-width<800px){
-        height: 8em;
-        min-width: device-width;
-        
-    }
-    else{
-        height: 3 em;
-        width: 1500px;
-    }
-    </script>
-}
 
 videobackground {
   position:relative;
@@ -152,9 +131,7 @@ q {
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
 }
 
 .topnav a:hover {
