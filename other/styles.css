@@ -8,11 +8,43 @@ body {
     background: #eff0ef ;
   }
   
-h1 {
-    color: black;
-    margin-left: 14px;
-    font-size-adjust: inherit;
-  }  
+.first {
+  text-align: left;
+  color: navajowhite;
+  position: fixed;
+  top: 17px;
+  left: 8px;
+}
+
+.second {
+  position: fixed;
+  top: 16px;
+  left: 7px;
+  color: palevioletred;
+  mix-blend-mode: darken;
+}
+
+.third {
+  position: fixed;
+  top: 18px;
+  left: 3px;
+  color: darkturquoise;
+  mix-blend-mode: color-burn;
+}
+.intro h1 {
+  font-size: 100px;
+  font-family: Verdana, serif;
+  margin: 0;
+    padding-top: 1em;
+}
+
+.intro{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    width=80%;
+    max-width: 1500px;
+}
+
 
 h2,h3,h4,h5,h6 {
     color: #2d5c4d;
