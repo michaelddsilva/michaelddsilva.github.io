@@ -1,90 +1,256 @@
-<!-- This is a page I made to observe how my styles.css will effect the apperance of my pages-->
-<!-- This page is modeled after this video: https://www.youtube.com/watch?v=UB1O30fR-EE -->
-
-
+<!DOCTYPE html>
+<html lang=" en">
 <head>
-    <meta charset=" utf-8">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-139134970-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
+      gtag('config', 'UA-139134970-1');
+    </script>
+    <!-- End of Script -->
+    <style>
+    html {
+        scroll-behavior: smooth;
+    }
+    </style>
+    <meta charset=" utf-8">
+    <title>Michael D'Silva's Website</title>
+        <meta name="description" content="Michael D'Silva's personal website.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
-    <title>Test Page</title>
+    <link href="assets/images/linedrawing.png" rel="icon">
+    
+    <script src="script.js" defer></script>
+
 </head>
 
 <body>
-    <h1>Heading One</h1>
-    <h2>Heading Two</h2>
-    <h3>Heading Three</h3>
-    <h4>Heading Four</h4>
-    <h5>Heading Five</h5>
-    <h6>Heading Six</h6>
+    <!-- Video from https://www.youtube.com/watch?v=cmhhRQWV8MI user: 99darkshadows The video edited: trimmed and I added my name -->
+    <br>
+    <a href=#intro>
+    <video autoplay loop playsinline muted id=videobackground>
+        <source src="/assets/images/fullmoon-clouds-1080p_Trim.mp4" type="video/mp4">
+    </video>
+    </a>
+    
+    
+<header>
+    <nav class="topnav" id="myTopnav">
+        <div class="section-link">
+            <a href=#intro><b>Michael D'Silva</b>
+            <a href="https://www.linkedin.com/in/michaelddsilva" target="_blank"> <i class="fab fa-linkedin"></i></a></a>
+            <a href="https://www.github.com/michaelddsilva" target="_blank"><i class="fab fa-github"></i></a>
+            <a href=#aboutMe>About Me</a>
+            <a href=#experience>Experience</a>
+            <a href=#projects>Projects</a>
+            <a href="Resume.html" target = "_blank">Resume.html</a>
+            <a href="assets/files/Michael%20D'Silva's%20Resume.pdf" target = "_blank">pdf</a>
+             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+        </div>
+    </nav>
+</header>
 
-    <p>paragraph</p>
+    <q id="intro"> | </q>
+    <div class="container">
     
-    <ul>
-        <li>one</li>
-        <li>two</li>
-        <li>three</li>
-    </ul>
+    <section >
+    <h1><b>Welcome to my site!</b></h1>
+    <div class="div1">
+
+    <p>Hi my name is Michael D'Silva. Welcome to my site. I am a second year software engineering student at Western University (UWO).</p>
+    <img src="/assets/images/me2.jpg" width = 300px alt = "me"> 
+    <p>Here on my site you can find my experiences, projects, and interests.</p>
+                <q id="aboutMe"> | </q>
+    </div>
+    </section>
     
-    <ol>
-        <li>one</li>
-        <li>two</li>
-        <li>three</li>
-    </ol>
+    <section>
+        <h1>About Me</h1>
+        <div class="div1">
+
+        <h2>Clubs & Organizations</h2>
+        <table>
+            <thead>
+                <tr>
+                    <td><b>Description</b></td>
+                    <td><b>Duration</b></td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><p>I am a collaborator at the <a href="https://www.westernuai.com/" target="_blank">Western AI Collective (WAIC)</a>. 
+            WAIC is a "student-run not-for-profit organization, committed to creating an ecosystem for artificial intelligence in Southwestern Ontario." 
+            WAIC is a collective of students who are passionate about learning how to implement machine learning.</p></td>
+                    <td>January 2019-Present</td>
+                </tr>
+                <tr>
+                    <td><p>This past year I was a pro-bono consultant for the <a href="https://www.westernmanagementclub.com/" target="_blank">Western Management Club (WMC)</a>. I worked in a team of six to provide pro-bono consulting services for a local business in London, Ontario.</p></td>
+                    <td>October 2018-March 2019</td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
+        
+        <div class="div1">
+        <h2>Interests</h2>
+        <p>I enjoy science-fiction and fantasy. Some of my favourite worlds are:</p>
+        <ul>
+            <li>Star Trek</li> 
+            <li>Star Wars <i>(Han shot first.)</i></li>
+            <li>Game of Thrones</li>
+            <li>Harry Potter <i>(My house is Ravenclaw.)</i><p style="font-size:8pt;">
+                
+                <img src="/assets/images/HP-Ravenclaw.jpg" >
+    
+                <br><a href="http://www.thealmightyguru.com/Reviews/HarryPotter/Docs/Quiz-House.html" target="_blank">Try out the sorter quiz here.</a></li>
+            <li>DC Comics</li>
+            <li>Marvel</li>
+        </ul>
+        <!--
+        <p>Some of the video games I've played include:</p>
+        <ul>
+            <li>Star Wars: Knights of the Old Republic</li>
+            <li>Star Wars: Knights of the Old Republic II</li>
+            <li>Mass Effect</li>
+            <li>Halo</li>
+            <li>Minecraft</li>
+            <li>Dragon Age: Origins</li>
+            <li>Borderlands</li>
+            <li>Destiny</li>
+            <li>Runescape</li>
+    
+        </ul>
+        -->
+                <q id="experience"> | </q>
+        </div>
+        </section>
+    
+    <section>
+    <h1>Experience</h1>
+    <div class="div1">
+    <p>Here you will find my work experience.</p>
+    <h2>Work Experience</h2>
     
     <table>
         <thead>
             <tr>
-                <th>Name</th>
-                <th>Email</th>
+                <td><b>TERANET, Student (Enterprise Architecture Team)</b></td>
+                <th>May-August 2019</th>
+
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td>Michael D'Silva</td>
-                <td>mdsilva6@uwo.ca</td>
+                <td>
+                    <ul>
+                        <li>Working in enterprise architecture team.</li>
+                    </ul>
+                </td>
             </tr>
+        </tbody>
+        <thead>
             <tr>
-                <td>Mike D'Silva</td>
-                <td>michael.dsilva.343@gmail.com</td>
+                <td><b>TERANET, Student (Enterprise Architecture Team)</b></td>
+                <th>May-August 2018</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <ul>
+                        <li>Conducted research and analysis for the Technology Architecture Group</li>
+                        <li>Attended Technology Architecture Group meetings (took meeting minutes)</li>
+                        <li>Communicated with vendors to acquire information, and schedule presentations and meetings</li>
+                        <li>Performed testing and evaluation of emerging, opensource, off-shelf and in-house applications</li>
+                        <li>Participated in Proof of Technology (POT) by creating manual for application(s) being tested</li>
+                        <li>Cataloged documentation for Teranet’s applications</li>
+                    </ul>
+                </td>
+            </tr>
+        </tbody>
+        <thead>
+            <tr>
+                <td><b>JMB IT Solutions, Trainer and Technical Support Consultant (self-employed)</b></td>
+                <th>2016-August 2018</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <ul>
+                        <li>Trained customers on Windows/Android/iPhone, Email, Social Media (Facebook, Twitter) </li>
+                        <li>Provided technical expertise in troubleshooting to resolve IT issues </li>
+                        <li>Set up cloud-based solutions for customer’s data and media storage, and </li>
+                        <li>Set up wired/wireless networks for residential use</li>                </ul>
+                </td>
             </tr>
         </tbody>
     </table>
+    </div>
+    <div class="div1">
+
+    <h2>Skills</h2  >
+    <p>Here you will find a list of programming languages and tools that I have worked with.</p>
+    <h3>Programming languages:</h3>
+    <ul>
+        <li>C++</li>
+        <li>C#</li>
+        <li>Java</li>
+        <li>JavaScript</li>
+        <li>CSS</li>
+        <li>HTML</li>
+        <li>Python</li>
+    </ul>
+    <h3>Tools</h3>
+    <ul>
+        <li>Git</li>
+        <li>PuTTY</li>
+        <li>CloudForms</li>
+        <li>Unity</li>
+        <li>Jupyter</li>
+    </ul>
+    <h3>Integrated Development Environments (IDEs)</h3>
+    <ul>
+        <li>Visual Studio</li>
+        <li>Visual Studio Code</li>
+        <li>IntelliJ IDEA</li>
+        <li>PyCharm</li>
+        <li>Brackets</li>
+    </ul>
+                <q id="projects"> | </q>
+    </div>
+    </section>
+
+    <section>
+    <h1>Projects</h1>
+    <div class="div1">
+    <p>Here you will find a list of projects that I am working on.</p>
+    <h3>Personal Website: <a href="javascript:alert('You are already here!');">michaeldsilva.com</a> [In Progress]</h3>
+
+    <ul>
+        <li>This site was created using <a href="https://github.io">github.io</a></li>
+        <li>The repository for the site can be located at <a href="https://github.com/michaelddsilva/michaelddsilva.github.io">github.com/michaelddsilva/michaelddsilva.github.io</a></li>
+    </ul>
+    <h3>Shoot 'em up Game: <a href="https://michaelddsilva.github.io/assets/game/" target ="_blank">[can be played here]</a></h3>
+    <ul>
+        <li>Created a "shoot 'em up game" in a group of three for a semester long course project </li> 
+        <li>The game will automatically open in full screen and the quit game button will cause the game to freeze.</li>
+        <li>The game's scripts were coded in C# and the assets and scenes were created in <a href="https://unity.com/">Unity</a>. </li>
+    </ul>
+    </div>
+    </section>
+
     
-    <br>
-    <hr>
-    <br>
-    
-    <form action="process.php" method="GET">
-        <div>
-            <label>First Name</label>
-            <input type="text" name="firstName" placeholder = "Enter first name">
-        </div>
-        <div>
-            <label>Last Name</label>
-            <input type="text" name="lastName" placeholder="Enter last name">
-        </div>
-        <div>
-            <label>Email</label>
-            <input type="email" name="email" placeholder="Enter email">
-        </div>
-        <br>
-        <div>
-            <label>Message</label>
-            <textarea name="message"></textarea>
-        </div>
-        <div>
-            <label>Yes or No</label>
-            <select name="yesOrNo">
-            <option value="yes">Yes</option>
-            <option value="no">No</option>
-            </select>
-        </div>
-        <br>
-        <input type = "submit" name="submit" value="Submit">
-    </form>
-    
-    <blockquote cite="https://loremipsum.io/">
-        <abbr title = "some random latin">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</abbr>
-    </blockquote>
+
+    <footer class = "FooterClass"><p></p></footer>
+    </div>
     
 </body>
+</html>
