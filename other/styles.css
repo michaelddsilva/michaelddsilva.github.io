@@ -125,7 +125,8 @@ q {
         margin: 0em;
         margin-left: -1em;
         padding-right: 0 em;
-        width: -webkit-fill-available;}
+        width: -webkit-fill-available;
+}
 
 .topnav a {
   float: left;
@@ -133,6 +134,8 @@ q {
   color: #f2f2f2;
   text-align: center;
   text-decoration: none;
+    font-size: 1.25em;
+
 }
 
 .topnav a:hover {
@@ -156,6 +159,7 @@ q {
   .topnav a.icon {
     float: right;
     display: block;
+      padding-right: 2em;
   }
 }
 
