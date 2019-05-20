@@ -7,6 +7,33 @@ html{
 body {
     background: #eff0ef ;
   }
+
+.me1 {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin: 1em;
+    background: white; 
+    border-style: ridge;
+    width: 31%;
+    min-width: 350px;
+    display: inline-block;
+}
+
+.me2 {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin: 1em;
+    background: white; 
+    border-style: ridge;
+    width: 24%;
+    min-width: 350px;
+    padding-right: 18px;
+    display: inline-block;
+}
+
+.me1 img {
+    border-radius: 50%;
+}
   
 h1 {
     color: black;
@@ -39,6 +66,7 @@ img{
 
 table{
     padding-left: 1em;
+    width: 100%
 }
 
 
@@ -116,6 +144,17 @@ q {
     width: 100%;
 }
 
+.name{
+    background: black;
+    padding-top: 8em;
+    padding-bottom: 4em;
+}
+
+.name h1{
+    color: white;
+    text-align: center;
+}
+
 .topnav {
   overflow: hidden;
   background-color: #333;
@@ -156,9 +195,9 @@ q {
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
-    float: right;
+    float: left;
     display: block;
-      padding-right: 1em;
+      padding-left: 9.5em;
   }
 }
 
@@ -175,6 +214,3 @@ q {
     text-align: left;
   }
 }}
-
-
-
