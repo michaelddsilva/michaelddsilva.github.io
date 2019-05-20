@@ -80,8 +80,7 @@ video{
     padding-top: 1em;
     padding-bottom: 1em;
     padding-right: 1em;
-    padding-left: 1em;
-    width=90%;
+    width=100%;
     max-width: 1500px;
 
 }
@@ -114,7 +113,7 @@ q {
     margin: 1em;
     background: white; 
     border-style: ridge;
-    width: 90%
+    width: 100%;
 }
 
 .topnav {
