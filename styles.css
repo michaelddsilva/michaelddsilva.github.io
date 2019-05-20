@@ -71,16 +71,6 @@ table{
 
 
 
-videobackground {
-  position:relative;
- 
-}
-
-video{
-    min-width: device-width; 
-    width: 100%;
-}
-
 .FooterClass{
     text-align: center;
     position: relative;
@@ -113,14 +103,7 @@ video{
 
 }
 
-.div0{
-    padding-top: 8em;
-    padding-bottom: 4em;
-    padding-left: 1.5em;
-    background: black;
-    width: 90%;
-    overflow-x: hidden;
-}
+
 
 h7{
     color: white;
@@ -144,6 +127,10 @@ q {
     width: 100%;
 }
 
+.div1 img{
+    max-width: 300px;
+}
+
 .name{
     background: black;
     padding-top: 8em;
@@ -153,6 +140,10 @@ q {
 .name h1{
     color: white;
     text-align: center;
+}
+
+.name a{
+    text-decoration: none;
 }
 
 .topnav {
