@@ -155,6 +155,8 @@ q {
     color: white;
 }
 
+<!-- code for nav bar --> 
+
 .topnav {
   overflow: hidden;
   background-color: #333;
@@ -213,4 +215,21 @@ q {
     display: block;
     text-align: left;
   }
-}}
+<!-- end of nav bar code -->
+}
+
+#one{
+    background: teal;
+}
+
+#two{
+    background: yellow;
+}
+
+#three{
+    background: teal;
+}
+
+#four{
+    background: yellow;
+}
