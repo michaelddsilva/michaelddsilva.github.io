@@ -100,6 +100,7 @@ table{
     padding-right: 1em;
     width=100%;
     max-width: 1500px;
+
 }
 
 
@@ -132,10 +133,8 @@ q {
 
 .name{
     background: black;
-    margin-right: 
     padding-top: 8em;
     padding-bottom: 4em;
-    width: 100%;
 }
 
 .name h1{
@@ -155,7 +154,7 @@ q {
         margin: 0em;
         margin-left: -1em;
         padding-right: 0 em;
-        width: 100%;
+        width: -webkit-fill-available;
 }
 
 .topnav a {
@@ -182,8 +181,6 @@ q {
 
 .topnav .icon {
   display: none;
-    position: absolute;
-        right: 0;
 }
 
 @media screen and (max-width: 600px) {
@@ -207,5 +204,4 @@ q {
     display: block;
     text-align: left;
   }
-}
-
+}}
