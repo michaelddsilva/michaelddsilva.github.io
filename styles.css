@@ -47,7 +47,7 @@ body {
     margin: 1em;
     background: white; 
     border-style: ridge;
-    width: 45%;
+    width: 47%;
     min-width: 350px;
     display: inline-block;
     vertical-align: top;
@@ -94,6 +94,10 @@ p {
 a {
     text-decoration: underline;
     color: royalblue;
+}
+
+j {
+    color: white;
 }
 
 img{
