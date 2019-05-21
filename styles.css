@@ -53,6 +53,10 @@ body {
     vertical-align: top;
 }
 
+.div1 tr td:nth-child(2){
+    width: 20%;
+}
+
 .div1 img{
     max-width: 300px;
 }
@@ -94,10 +98,6 @@ p {
 a {
     text-decoration: underline;
     color: royalblue;
-}
-
-j {
-    color: white;
 }
 
 img{
