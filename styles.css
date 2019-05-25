@@ -175,8 +175,7 @@ q {
 }
 
 .topnav a:hover {
-  background-color: #ddd;
-  color: black;
+  color: aqua;
 }
 
 
@@ -188,7 +187,7 @@ q {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     position: absolute;
-    left: 400px;
+    left: 300px;
     top: 0;
     display: block;
   }
@@ -198,7 +197,7 @@ q {
   .topnav.responsive {position: fixed;}
   .topnav.responsive .icon {
     position: absolute;
-    left: 400px;
+    left: 300px;
     top: 0;
   }
   .topnav.responsive a {
