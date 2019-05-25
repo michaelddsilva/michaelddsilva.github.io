@@ -193,9 +193,10 @@ q {
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
-    float: left;
+    position: absolute;
+    left: 400px;
+    top: 0;
     display: block;
-      padding-left: 8em;
   }
 }
 
@@ -203,7 +204,7 @@ q {
   .topnav.responsive {position: fixed;}
   .topnav.responsive .icon {
     position: absolute;
-    right: 0;
+    left: 400px;
     top: 0;
   }
   .topnav.responsive a {
