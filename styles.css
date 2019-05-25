@@ -34,7 +34,18 @@ body {
 .me1 img {
     border-radius: 50%;
 }
-  
+
+.container{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-right: 1em;
+    width=100%;
+    max-width: 1500px;
+    vertical-align: top;
+    margin: 0 auto;
+
+}
+
 .div1 q {
     color: white
 }
@@ -49,6 +60,8 @@ body {
     min-width: 350px;
     display: inline-block;
     vertical-align: top;
+
+    
 }
 
 .div1 tr td:nth-child(2){
@@ -130,18 +143,6 @@ table{
     text-decoration: none;
     font-size: 1em;
 } 
-
-
-
-.container{
-    padding-top: 1em;
-    padding-bottom: 1em;
-    padding-right: 1em;
-    width=100%;
-    max-width: 1500px;
-
-}
-
 
 
 h7{
