@@ -1,5 +1,6 @@
 window.onload = function onloadfunction() {
     copyrightYear();
+    typeWriter();
 }
 
 function copyrightYear() {
@@ -15,5 +16,17 @@ function myFunction() {
     x.className += " responsive";
   } else {
     x.className = "topnav";
+  }
+}
+
+var i = 0;
+var txt = "Hi, i'm Michael D'Silva";
+var speed = 100;
+
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("hello").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
   }
 }
