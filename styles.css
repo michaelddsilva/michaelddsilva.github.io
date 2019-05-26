@@ -1,6 +1,7 @@
 
 html{
     font-family: 'Poppins', sans-serif;
+    max-width: 100%;
     overflow-x: hidden;
 }
 
