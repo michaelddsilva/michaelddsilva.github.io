@@ -20,7 +20,7 @@ function myFunction() {
 }
 
 var i = 0;
-var txt = "Hi, i'm Michael D'Silva";
+var txt = "Hi, I'm Michael D'Silva";
 var speed = 100;
 
 function typeWriter() {
