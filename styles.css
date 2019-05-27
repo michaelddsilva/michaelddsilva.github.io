@@ -12,7 +12,6 @@ body {
 .me1 {
     padding-top: 1em;
     padding-bottom: 1em;
-    margin: 1em;
     background: white; 
     border-style: ridge;
     width: 31%;
@@ -24,7 +23,6 @@ body {
     padding-top: 1em;
     padding-bottom: 1em;
     background: none;
-    margin: 1em;
     width: 24%;
     min-width: 350px;
     display: inline-block;
@@ -51,10 +49,9 @@ body {
 .div1{
     padding-top: 1em;
     padding-bottom: 1em;
-    margin: 1em;
     background: white; 
     border-style: ridge;
-    width: 47%;
+    width: 49.6%;
     min-width: 350px;
     display: inline-block;
     vertical-align: top;
