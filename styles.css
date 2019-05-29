@@ -262,4 +262,8 @@ q {
         transform-style: preserve-3d;
         -webkit-transform-style: preserve-3d;
     }
+    .div1{
+        min-width: 90%;
+        width: 98%;
+    }
 }
