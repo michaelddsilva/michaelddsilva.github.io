@@ -19,13 +19,13 @@ body {
 
 .progress-box {
 
-  height: 8px;
+  height: 4px;
   background: #ccc;
 }
 
 .progress-bar {
 
-  height: 8px;
+  height: 4px;
   background: white;
   width: 0%;
 }
