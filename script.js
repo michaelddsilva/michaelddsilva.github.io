@@ -1,6 +1,17 @@
+window.onscroll = function() {progressBar()};
+
+
 window.onload = function onloadfunction() {
     copyrightYear();
-    typeWriter();
+    typeMyName();
+}
+
+
+function progressBar() {
+  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var scrolled = (winScroll / height) * 100;
+  document.getElementById("myBar").style.width = scrolled + "%";
 }
 
 function copyrightYear() {
@@ -10,7 +21,7 @@ function copyrightYear() {
 
 }
 
-function myFunction() {
+function navBar() {
   var x = document.getElementById("myTopnav");
   if (x.className === "topnav") {
     x.className += " responsive";
@@ -20,13 +31,15 @@ function myFunction() {
 }
 
 var i = 0;
-var txt = "Hi, I'm Michael D'Silva";
-var speed = 100;
+var name = "Hi, I'm Michael D'Silva";
+var speed1 = 100;
 
-function typeWriter() {
-  if (i < txt.length) {
-    document.getElementById("hello").innerHTML += txt.charAt(i);
+function typeMyName() {
+  if (i < name.length) {
+    document.getElementById("hello").innerHTML += name.charAt(i);
     i++;
-    setTimeout(typeWriter, speed);
+    
+    setTimeout(typeMyName, speed1);
   }
 }
+

@@ -9,6 +9,28 @@ body {
     background: #eff0ef ;
   }
 
+
+.progress-container {
+    position: fixed;
+    top: 3em;
+    z-index: 2;
+  width: 97%;
+}
+
+.progress-box {
+
+  height: 8px;
+  background: #ccc;
+}
+
+.progress-bar {
+
+  height: 8px;
+  background: white;
+  width: 0%;
+}
+
+
 .me1 {
     padding-top: 1em;
     padding-bottom: 1em;
@@ -76,6 +98,12 @@ body {
 .name h1{
     color: white;
     text-align: center;
+}
+
+.name h2{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 1.75em;
 }
 
 .name a{
@@ -267,3 +295,4 @@ q {
         width: 98%;
     }
 }
+

@@ -31,6 +31,7 @@
 
     
 <header>
+    
     <nav class="topnav" id="myTopnav">
         <div class="section-link">
             <a href=#intro><b>MD</b>
@@ -39,12 +40,18 @@
             <a href=#aboutMe>About Me</a>
             <a href=#experience>Experience</a>
             <a href=#projects>Projects</a>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+            <a href="javascript:void(0);" class="icon" onclick="navBar()"><i class="fa fa-bars"></i></a>
         </div>
     </nav>
+  <div class="progress-container">
+    <div class="progress-box">
+    <div class="progress-bar" id="myBar"></div>
+  </div>
+   </div> 
 </header>
     <div class="name">
         <a href=#intro><h1 id="hello"></h1></a>
+        <h2 id ="titles"></h2>
     </div>
     <q id="intro"> | </q>
     <br>
@@ -266,6 +273,6 @@
 
     <footer class = "FooterClass"><p></p></footer>
     </div>
-    
+
 </body>
 </html>
