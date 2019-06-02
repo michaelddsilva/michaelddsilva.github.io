@@ -188,7 +188,7 @@ q {
         margin: 0em;
         margin-left: -1em;
         padding-right: 0 em;
-        width: -webkit-fill-available;
+        width: 100%;
 }
 
 .topnav a {
