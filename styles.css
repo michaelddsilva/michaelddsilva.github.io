@@ -9,6 +9,16 @@ body {
     background: #eff0ef ;
   }
 
+::-moz-selection {
+  color: white;
+  background: #FF853D;
+}
+
+::selection {
+  color: white;
+  background: #FF853D;
+}
+
 
 .progress-container {
     position: fixed;
@@ -26,7 +36,7 @@ body {
 .progress-bar {
 
   height: 4px;
-  background: #FF853D;
+  background: #3DFFFE;
   width: 0%;
 }
 
@@ -133,7 +143,7 @@ p {
 
 a {
     text-decoration: underline;
-    color: royalblue;
+    color: #FF853D;
 }
 
 img{
