@@ -19,6 +19,26 @@ body {
   background: #FF853D;
 }
 
+.button {
+  border: none;
+  color: white;
+  padding: 4px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1em;
+}
+
+.style_button {
+    background-color: dimgray;
+    border-radius: 2px;
+    color: white;
+}
+
+.style_button_dark {
+    background-color: dimgray;
+    border-radius: 2px;
+}
 
 .progress-container {
     position: fixed;
