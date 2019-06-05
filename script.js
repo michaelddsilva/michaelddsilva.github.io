@@ -4,6 +4,11 @@ window.onscroll = function() {progressBar()};
 window.onload = function onloadfunction() {
     copyrightYear();
     typeMyName();
+    var today = new Date();
+    var h = today.getHours();
+    if(h>18 || h <8){
+        swapCSS('stylesDark.css', 0);
+    }
 }
 
 
