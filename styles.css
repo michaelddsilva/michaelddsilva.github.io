@@ -84,6 +84,20 @@ body {
     border-radius: 50%;
 }
 
+.me3 {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background: white; 
+    border-style: none;
+    width: 31%;
+    min-width: 350px;
+    display: inline-block;
+}
+
+.me3 img {
+    border-radius: 50%;
+}
+
 .container{
     padding-top: 1em;
     padding-bottom: 1em;
