@@ -38,6 +38,7 @@ body {
 .style_button_dark {
     background-color: dimgrey;
     border-radius: 2px;
+    color: aqua;
 }
 
 .progress-container {
