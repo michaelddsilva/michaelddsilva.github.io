@@ -83,6 +83,7 @@ body {
 
 .me1 img {
     border-radius: 50%;
+    filter: brightness(50%) contrast(100%);
 }
 
 .me3 {
