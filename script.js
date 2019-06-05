@@ -6,7 +6,7 @@ window.onload = function onloadfunction() {
     typeMyName();
     var today = new Date();
     var h = today.getHours();
-    if(h>18 || h <8){
+    if(h>18 || h <7){
         swapCSS('stylesDark.css', 0);
     }
 }
