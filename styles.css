@@ -148,6 +148,7 @@ body {
   padding: 5px 0;
 
   position: absolute;
+    left: 5em;
   z-index: 1;
 }
 

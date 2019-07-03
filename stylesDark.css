@@ -83,7 +83,7 @@ body {
 
 .me1 img {
     border-radius: 50%;
-    filter: contrast(1.2);
+    <--filter: contrast(1.2);-->
 }
 
 .me3 {
@@ -157,6 +157,7 @@ body {
   padding: 5px 0;
 
   position: absolute;
+        left: 5em;
   z-index: 1;
 }
 
