@@ -6,7 +6,7 @@ html{
 }
 
 body {
-    background: #eff0ef ;
+    background: #fdfcfc ;
   }
 
 ::-moz-selection {
@@ -60,6 +60,9 @@ body {
   width: 0%;
 }
 
+.me {
+  border-style: none;
+}
 
 .me1 {
     padding-top: 1em;
@@ -115,9 +118,9 @@ body {
 .div1{
     padding-top: 1em;
     padding-bottom: 1em;
-    background: white; 
+    background: rgb(255, 255, 255); 
     border-style: none;
-    width: 49.6%;
+    width: 49%;
     min-width: 350px;
     display: inline-block;
     vertical-align: top;
