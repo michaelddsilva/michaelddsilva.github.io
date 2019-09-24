@@ -111,8 +111,8 @@ body {
 
 }
 
-.div1 q {
-    color: white
+.me q {
+    color: #fdfcfc
 }
 
 .div1{
@@ -251,7 +251,7 @@ q {
 
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color: rgb(70, 70, 70);
     z-index: 2;
     position: fixed;
         top:0;
