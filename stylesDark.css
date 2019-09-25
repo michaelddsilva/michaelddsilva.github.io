@@ -120,7 +120,9 @@ body {
     padding-top: 1em;
     padding-bottom: 1em;
     background: #585858; 
-    border-style: none;
+    border-style: groove;
+    border-width: 0.1em; 
+    border-color: rgba(33, 33, 33, 0.3);    
     width: 49.6%;
     min-width: 350px;
     display: inline-block;

@@ -119,13 +119,24 @@ body {
     padding-top: 1em;
     padding-bottom: 1em;
     background: rgb(255, 255, 255); 
-    border-style: none;
+    border-style: ridge;
+    border-width: 0.1em; 
+    border-color: rgba(28,110,164,0.03);
     width: 49%;
     min-width: 350px;
     display: inline-block;
     vertical-align: top;
 
     
+}
+
+.div1 p, .div1 ul, .div1 td {
+  color: gray;
+}
+
+.div1:hover p, .div1:hover ul, .div1:hover td{
+  color: black;
+  transition: 0.3s;
 }
 
 .div1 tr td:nth-child(2){
@@ -187,7 +198,7 @@ h1 {
   }  
 
 h2,h3,h4,h5,h6 {
-    color: #2d5c4d;
+    color: #342d5c;
     margin-left: 14px;
     font-size-adjust: inherit;
   }
