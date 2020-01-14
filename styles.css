@@ -1,6 +1,9 @@
 
 :root {
+  --nav-color: rgb(5, 16, 46);
   --background-color: white;
+  --container-color: white;
+  --border-color: rgba(28,110,164,0.03);
   --h1-color: black;
   --h2-color: #342d5c;
   --link-color: #FF853D;
@@ -11,11 +14,14 @@
 }
 
 [site-theme="dark"] {
-  --background-color: rgb(43, 41, 41);
+  --nav-color: rgb(0, 0, 0);
+  --background-color: rgb(43, 40, 40);
+  --container-color: rgb(43, 41, 41);
+  --border-color: rgba(184, 203, 221, 0.03);
   --h1-color: white;
   --h2-color: white;
   --link-color: rgb(29, 170, 170);
-  --accent-color: aqua;
+  --accent-color: rgb(2, 208, 245);
   --inactive-p-color: rgb(158, 157, 157);
   --active-p-color: white;
 }
@@ -44,23 +50,14 @@ body {
   display: none;
 }
 
-/* The switch - the box around the slider */
 .switch {
-position: relative;
-top: 1em;
-display: inline-block;
-width: 60px;
-height: 34px;
+  position: relative;
+  top: 1em;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
 }
 
-/* Hide default HTML checkbox */
-.switch input {
-opacity: 0;
-width: 0;
-height: 0;
-}
-
-/* The slider */
 .slider {
 position: absolute;
 cursor: pointer;
@@ -100,7 +97,6 @@ input:checked + .slider:before {
 transform: translateX(26px);
 }
 
-/* Rounded sliders */
 .slider.round {
 border-radius: 34px;
 }
@@ -113,7 +109,7 @@ border-radius: 50%;
   position: fixed;
   top: 3em;
   z-index: 2;
-width: 100%;
+  width: 100%;
 }
 
 .progress-box {
@@ -123,10 +119,9 @@ background: #f2f2f2;
 }
 
 .progress-bar {
-
-height: 4px;
-background: var(--link-color);
-width: 0%;
+  height: 4px;
+  background: var(--link-color);
+  width: 0%;
 }
 
 .me {
@@ -136,7 +131,7 @@ border-style: none;
 .me1 {
   padding-top: 1em;
   padding-bottom: 1em;
-  background: var(--background-color); 
+  background: var(--container-color); 
   border-style: none;
   width: 31%;
   min-width: 350px;
@@ -159,7 +154,7 @@ border-style: none;
 .me3 {
   padding-top: 1em;
   padding-bottom: 1em;
-  background: var(--background-color); 
+  background: var(--container-color); 
   border-style: none;
   width: 31%;
   min-width: 350px;
@@ -187,10 +182,10 @@ border-style: none;
 .div1{
   padding-top: 1em;
   padding-bottom: 1em;
-  background: var(--background-color); 
+  background: var(--container-color); 
   border-style: ridge;
   border-width: 0.1em; 
-  border-color: rgba(28,110,164,0.03);
+  border-color: var(--border-color);
   width: 49%;
   min-width: 350px;
   display: inline-block;
@@ -222,17 +217,17 @@ display: inline-block;
 }
 
 .tooltip .tooltiptext {
-visibility: hidden;
-width: 120px;
-background-color: black;
-color: #fff;
-text-align: center;
-border-radius: 6px;
-padding: 5px 0;
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
 
-position: absolute;
+  position: absolute;
   left: 5em;
-z-index: 1;
+  z-index: 1;
 }
 
 .tooltip:hover .tooltiptext {
@@ -319,13 +314,9 @@ table{
   font-size: 1em;
 } 
 
-q {
-  color: #eff0ef;
-}
-
 .topnav {
 overflow: hidden;
-background-color: rgb(5, 16, 46);
+background-color: var(--nav-color);
   z-index: 2;
   position: fixed;
       top:0;
@@ -379,16 +370,14 @@ display: none;
 }
 }
 
-/* The flip box container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-box {
 background-color: transparent;
 width: 100%;
 height: 250px;
-perspective: 1000px; /* Remove this if you don't want the 3D effect */
-  display: inline-block;
+perspective: 1000px; 
+display: inline-block;
 }
 
-/* This container is needed to position the front and back side */
 .flip-box-inner {
 position: relative;
 width: 100%;
@@ -399,12 +388,10 @@ transform-style: preserve-3d;
   
 }
 
-/* Do an horizontal flip when you move the mouse over the flip box container */
 .flip-box:hover .flip-box-inner {
-transform: rotateY(180deg);
+  transform: rotateY(180deg);
 }
 
-/* Position the front and back side */
 .flip-box-front, .flip-box-back {
 position: absolute;
   border-style: none;
@@ -413,13 +400,11 @@ height: 100%;
 backface-visibility: hidden;
 }
 
-/* Style the front side */
 .flip-box-front {
 background-color: var(--background-color);
 color: var(--active-p-color);
 }
 
-/* Style the back side */
 .flip-box-back {
 background-color: var(--background-color);
 color: var(--active-p-color);
