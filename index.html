@@ -39,12 +39,13 @@
             <a href=#intro><b>MD</b>
             <a href="https://www.linkedin.com/in/michaelddsilva" target="_blank"> <i class="fab fa-linkedin"></i></a></a>
             <a href="https://www.github.com/michaelddsilva" target="_blank"><i class="fab fa-github"></i></a>
-            <!--<a href="https://www.medium.com/@michaelddsilva" target="_blank"><i class="fab fa-medium"></i></a>-->
             <a href=#aboutMe>About Me</a>
             <a href=#experience>Experience</a>
             <a href=#projects>Projects</a>
-            <a><button class="button style_button" href="#" onclick="swapCSS('styles.css', 0);">Light Mode</button></a> 
-            <a><button class="button style_button_dark" href="#" onclick="swapCSS('stylesDark.css', 0);">Dark Mode</button></a> 
+            <label class="switch">
+                <input class = "toggle" type="checkbox" id="toggleSwitch" checked onClick="toggleCSS()">
+                <span class="slider round"></span>
+            </label>
             <a href="javascript:void(0);" class="icon" onclick="navBar()"><i id=one class="fa fa-bars"></i><i id=two class="fa fa-close"></i></a>
             <div class="progress-container">
     <div class="progress-box">
@@ -59,11 +60,10 @@
         <a href=#intro><h1 id="hello"></h1></a>
         <h2 id ="titles"></h2>
     </div>
-    <q id="intro"></q>
     <br>
     <div class="container">
     
-    <section>
+    <section id="intro">
     <div class="me" style="text-align: center">
     <h1><b>Welcome to my site!</b></h1>
     
@@ -90,7 +90,6 @@
           </div>
         </div>
         
-        <q id="aboutMe"></q>
     </div>  
     
     <div class="me3" style="text-align: center">
@@ -99,7 +98,7 @@
     </div>
     </section>
 
-    <section>
+    <section id="aboutMe">
         
         <h1>About Me</h1>
         <div style="align-self: center">
@@ -149,7 +148,7 @@
 
         <div class="div1" >
         <h2>Interests</h2>
-        <p>I enjoy science-fiction and fantasy. Some of my favourite worlds are:</p>
+        <p>I enjoy science-fiction and fantasy series:</p>
         <ul>
             <li>Star Trek</li> 
             <li><div class="tooltip">Star Wars
@@ -162,13 +161,11 @@
             <li>DC Comics</li>
             <li>Marvel</li>
         </ul>
-        
-                <q id="experience"></q>
         </div>
         </div>
         </section>
     
-    <section >
+    <section id="experience">
     <h1>Experience</h1>
     <div class="div1">
     <h2>Work Experience</h2>
@@ -252,6 +249,7 @@
         <li>HTML</li>
         <li>CSS</li>
         <li>JavaScript</li>
+        <li>Angular Framework</li>
     </ul>
     <h3>Tools</h3>
     <ul>
@@ -271,11 +269,10 @@
         <li>PyCharm</li>
         <li>Brackets</li>
     </ul>
-                <q id="projects"> | </q>
     </div>
     </section>
 
-    <section>
+    <section id="projects">
     <h1>Projects</h1>
     <div class="div1">
     <p>Here you will find a list of projects that I am working on.</p>

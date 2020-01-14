@@ -59,3 +59,13 @@ function swapCSS(cssFile, cssLinkIndex) {
 
     document.getElementsByTagName("head").item(0).replaceChild(newlink, oldlink);
 }
+
+function toggleCSS() {
+  var check = document.getElementById("toggleSwitch");
+  if (check.checked) {
+    document.documentElement.setAttribute('site-theme', 'dark');
+  }
+  else {
+    document.documentElement.setAttribute('site-theme', 'light');
+  }    
+}
