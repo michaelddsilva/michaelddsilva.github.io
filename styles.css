@@ -7,7 +7,7 @@
   --h1-color: black;
   --h2-color: #342d5c;
   --link-color: #FF853D;
-  --accent-color: aqua;
+  --accent-color: #FF853D;
   --inactive-p-color: grey;
   --active-p-color: black;
 
@@ -337,7 +337,7 @@ text-decoration: none;
 }
 
 .topnav a:hover {
-color: aqua;
+color: var(--accent-color);
 }
 
 
