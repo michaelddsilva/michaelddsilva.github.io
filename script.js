@@ -7,7 +7,9 @@ window.onload = function onloadfunction() {
     var today = new Date();
     var h = today.getHours();
     if(h>18 || h <7){
-        swapCSS('stylesDark.css', 0);
+      var check = document.getElementById("toggleSwitch");
+      check.checked = true;
+      toggleCSS();
     }
 }
 
@@ -46,18 +48,6 @@ function typeMyName() {
     
     setTimeout(typeMyName, speed1);
   }
-}
-
-function swapCSS(cssFile, cssLinkIndex) {
-
-    var oldlink = document.getElementsByTagName("link").item(cssLinkIndex);
-
-    var newlink = document.createElement("link");
-    newlink.setAttribute("rel", "stylesheet");
-    newlink.setAttribute("type", "text/css");
-    newlink.setAttribute("href", cssFile);
-
-    document.getElementsByTagName("head").item(0).replaceChild(newlink, oldlink);
 }
 
 function toggleCSS() {

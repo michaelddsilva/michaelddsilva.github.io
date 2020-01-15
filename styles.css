@@ -30,6 +30,7 @@ html{
   font-family: 'Poppins', sans-serif;
   max-width: 100vw;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -173,10 +174,6 @@ border-style: none;
   vertical-align: top;
   margin: 0 auto;
 
-}
-
-.me q {
-  color: #fdfcfc
 }
 
 .div1{
