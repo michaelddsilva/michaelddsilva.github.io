@@ -47,9 +47,7 @@ body {
   background: #FF853D;
 }
 
-.q {
-  display: none;
-}
+
 
 .switch {
   position: relative;
@@ -191,7 +189,7 @@ border-style: none;
   
 }
 
-.div1 p, .div1 ul, .div1 td {
+.div1 p, .div1 ul, .div1 td, .div1 th {
 color: var(--inactive-p-color);
 }
 
