@@ -184,9 +184,7 @@ border-style: none;
   width: 49%;
   min-width: 350px;
   display: inline-block;
-  vertical-align: top;
-
-  
+  vertical-align: top; 
 }
 
 .div1 p, .div1 ul, .div1 td, .div1 th {
