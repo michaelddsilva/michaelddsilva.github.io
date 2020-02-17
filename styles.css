@@ -183,6 +183,7 @@ border-style: none;
   border-color: var(--border-color);
   width: 49%;
   min-width: 350px;
+  min-height: 250px;
   display: inline-block;
   vertical-align: top; 
 }
