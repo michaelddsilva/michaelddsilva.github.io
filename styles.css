@@ -124,7 +124,7 @@ background: #f2f2f2;
 }
 
 .me {
-border-style: none;
+  border-style: none;
 }
 
 .me1 {
@@ -141,27 +141,44 @@ border-style: none;
   padding-top: 1em;
   padding-bottom: 1em;
   background: none;
-  width: 24%;
+  width: 60%;
   min-width: 350px;
   display: inline-block;
-}
-
-.me1 img {
-  border-radius: 50%;
 }
 
 .me3 {
-  padding-top: 1em;
-  padding-bottom: 1em;
-  background: var(--container-color); 
+  padding: 1em;
   border-style: none;
-  width: 31%;
+  width: 100%;
   min-width: 350px;
   display: inline-block;
 }
 
-.me3 img {
-  border-radius: 50%;
+.me3 p, .me3 ul, .me3 td, .me3 th {
+  color: var(--active-p-color);
+}
+
+.me tr {
+  list-style: none;
+  background: var(--background-color);
+  margin: 4px;
+  width: fit-content;
+  min-height: 70px;
+  vertical-align: middle;
+}
+
+.me tbody {
+  margin: 5px;
+}
+
+.me table img {
+  transform: scale(-1, 1); 
+  transform-origin: center;
+}
+
+.resume{
+  text-align: center;
+  padding: 1em;
 }
 
 .container{
@@ -183,7 +200,6 @@ border-style: none;
   border-color: var(--border-color);
   width: 49%;
   min-width: 350px;
-  min-height: 250px;
   display: inline-block;
   vertical-align: top; 
 }
@@ -397,6 +413,7 @@ display: none;
 .flip-box {
 background-color: transparent;
 width: 100%;
+max-width: 500px;
 height: 250px;
 perspective: 1000px; 
 display: inline-block;
