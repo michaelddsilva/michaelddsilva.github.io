@@ -203,6 +203,36 @@ transition: 0.3s;
 .div1 img{
   max-width: 300px;
 }
+.div2{
+  padding-top: 1em;
+  padding-bottom: 1em;
+  background: var(--container-color); 
+  border-style: ridge;
+  border-width: 0.1em; 
+  border-color: var(--border-color);
+  width: 32%;
+  min-width: 350px;
+  min-height: 300px;
+  display: inline-block;
+  vertical-align: top; 
+}
+
+.div2 p, .div2 ul, .div2 td, .div2 th {
+color: var(--inactive-p-color);
+}
+
+.div2:hover p, .div2:hover ul, .div2:hover td{
+color: var(--active-p-color);
+transition: 0.3s;
+}
+
+.div2 tr td:nth-child(2){
+  width: 20%;
+}
+
+.div2 img{
+  max-width: 300px;
+}
 
 .tooltip {
 position: relative;
