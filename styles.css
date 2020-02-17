@@ -158,10 +158,11 @@ background: #f2f2f2;
   color: var(--active-p-color);
 }
 
-.me tr {
-  list-style: none;
-  background: var(--background-color);
-  margin: 4px;
+.me td {
+  background: var(--container-color);
+  margin-right: 0;
+  margin-left: 0;
+  margin-bottom: 4px;
   width: fit-content;
   min-height: 70px;
   vertical-align: middle;
