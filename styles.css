@@ -344,6 +344,10 @@ table{
   color: grey;
 }
 
+.links p{
+  font-size: small;
+}
+
 .section-link a {
   color: black;
   margin: 15px; 
